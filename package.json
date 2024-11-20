@@ -2,7 +2,7 @@
   "name": "dead-link-checker",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "A simple tool to check for dead links in a website",
   "main": "index.js",
   "scripts": {
     "lint-and-format": "biome check --fix",
