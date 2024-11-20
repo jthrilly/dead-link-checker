@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Output directories
+dist
+
+
+# System files
+.DS_Store
+Thumbs.db
+
+pnpm-lock.yaml

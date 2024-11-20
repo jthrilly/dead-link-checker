@@ -1,0 +1,27 @@
+{
+  "name": "dead-link-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint-and-format": "biome check --fix",
+    "build": "esbuild index.js --bundle --platform=node --outfile=dist/dead-link-checker.js"
+  },
+  "bin": {
+    "dead-link-checker": "./dist/dead-link-checker.js"
+  },
+  "keywords": [
+    "deadlinks",
+    "linkchecker"
+  ],
+  "author": "Joshua Melville <joshua@morsontologica.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "esbuild": "^0.24.0"
+  }
+}
