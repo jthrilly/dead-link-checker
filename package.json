@@ -1,12 +1,12 @@
 {
-  "name": "dead-link-checker",
-  "version": "1.0.0",
+  "name": "@jthrilly/dead-link-checker",
+  "version": "1.0.1",
   "type": "module",
   "description": "A simple tool to check for dead links in a website",
   "main": "index.js",
   "scripts": {
     "lint-and-format": "biome check --fix",
-    "build": "esbuild index.js --bundle --platform=node --outfile=dist/dead-link-checker.js"
+    "build": "esbuild index.js --bundle --platform=node --format=esm --outfile=dist/dead-link-checker.js"
   },
   "bin": {
     "dead-link-checker": "./dist/dead-link-checker.js"
